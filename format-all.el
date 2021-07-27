@@ -931,7 +931,7 @@ Consult the existing formatters for examples of BODY."
    (format-all--buffer-easy
     executable "format" "-stdin"
     (let ((ext (if (not (buffer-file-name)) ""
-                   (file-name-extension (buffer-file-name)))))
+                 (file-name-extension (buffer-file-name)))))
       (concat "." (if (equal ext "") "res" ext))))))
 
 (define-format-all-formatter rubocop
@@ -1098,6 +1098,10 @@ unofficial languages IDs are prefixed with \"_\"."
                     (equal (symbol-value 'web-mode-content-type) "html")
                     (equal (symbol-value 'web-mode-engine) "angular")))
            "_Angular")
+      (and (or (equal major-mode 'vue-html-mode)
+               (and (equal major-mode 'web-mode)
+                    (equal (symbol-value 'web-mode-engine) "vue")))
+           "Vue")
       (and (member major-mode '(js-mode js2-mode js3-mode))
            (boundp 'flow-minor-mode)
            (not (null (symbol-value 'flow-minor-mode)))
