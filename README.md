@@ -1,10 +1,10 @@
 *format-all* for Emacs
 ======================
 
-*NOTE:* The package is actively maintained but due to lack of time,
-complex tasks are done at a slow pace. Simple tasks like adding or
-fixing formatter definitions are often done immediately. For faster
-progress, additional maintainers are welcome.
+> *NOTE:* The package is actively maintained but due to lack of time,
+> complex tasks are done at a slow pace. Simple tasks like adding or
+> fixing formatter definitions are often done immediately. For faster
+> progress, additional maintainers are welcome.
 
 What does it do
 ---------------
@@ -34,15 +34,17 @@ Supported languages
 * **CMake** ([*cmake-format*](https://github.com/cheshirekow/cmake_format))
 * **Crystal** ([*crystal tool format*](http://www.motion-express.com/blog/crystal-code-formatter))
 * **CSS/Less/SCSS** ([*prettier*](https://prettier.io/))
+* **Cuda** ([*clang-format*](https://clang.llvm.org/docs/ClangFormat.html))
 * **D** ([*dfmt*](https://github.com/dlang-community/dfmt))
-* **Dart** ([*dartfmt*](https://github.com/dart-lang/dart_style))
+* **Dart** ([*dartfmt*](https://github.com/dart-lang/dart_style), [*dart-format*](https://dart.dev/tools/dart-format))
 * **Dhall** ([*dhall format*](https://github.com/dhall-lang/dhall-lang))
 * **Dockerfile** ([*dockfmt*](https://github.com/jessfraz/dockfmt))
 * **Elixir** ([*mix format*](https://hexdocs.pm/mix/master/Mix.Tasks.Format.html))
 * **Elm** ([*elm-format*](https://github.com/avh4/elm-format))
 * **Emacs Lisp** (Emacs)
+* **F#** ([*fantomas*](https://github.com/fsprojects/fantomas))
 * **Fish Shell** ([*fish_indent*](https://fishshell.com/docs/current/commands.html#fish_indent))
-* **Fortran 90** ([*fprettify*](https://github.com/pseewald/fprettify))
+* **Fortran Free Form** ([*fprettify*](https://github.com/pseewald/fprettify))
 * **Gleam** ([*gleam format*](https://gleam.run/))
 * **GLSL** ([*clang-format*](https://clang.llvm.org/docs/ClangFormat.html))
 * **Go** ([*gofmt*](https://golang.org/cmd/gofmt/), [*goimports*](https://godoc.org/golang.org/x/tools/cmd/goimports))
@@ -55,16 +57,17 @@ Supported languages
 * **Kotlin** ([*ktlint*](https://github.com/shyiko/ktlint))
 * **LaTeX** ([*latexindent*](https://github.com/cmhughes/latexindent.pl), [*auctex*](https://www.gnu.org/software/auctex/))
 * **Ledger** ([*ledger-mode*](https://github.com/ledger/ledger-mode))
-* **Lua** ([*lua-fmt*](https://github.com/trixnz/lua-fmt), [*prettier plugin-lua*](https://github.com/prettier/plugin-lua))
+* **Lua** ([*lua-fmt*](https://github.com/trixnz/lua-fmt), [*prettier plugin*](https://github.com/prettier/plugin-lua))
 * **Markdown** ([*prettier*](https://prettier.io/))
 * **Nix** ([*nixpkgs-fmt*](https://github.com/nix-community/nixpkgs-fmt), [*nixfmt*](https://github.com/serokell/nixfmt))
 * **OCaml** ([*ocp-indent*](https://opam.ocaml.org/packages/ocp-indent/))
 * **Perl** ([*perltidy*](http://perltidy.sourceforge.net/))
-* **PHP** ([*prettier plugin-php*](https://github.com/prettier/plugin-php))
+* **PHP** ([*prettier plugin*](https://github.com/prettier/plugin-php))
 * **Protocol Buffers** ([*clang-format*](https://clang.llvm.org/docs/ClangFormat.html))
-* **PureScript** ([*purty*](https://gitlab.com/joneshf/purty))
+* **PureScript** ([*purty*](https://gitlab.com/joneshf/purty), [*purescript-tidy*](https://github.com/natefaubion/purescript-tidy))
 * **Python** ([*black*](https://github.com/ambv/black), [*yapf*](https://github.com/google/yapf))
 * **R** ([*styler*](https://github.com/r-lib/styler))
+* **Racket** ([*raco fmt*](https://docs.racket-lang.org/fmt/))
 * **Reason** ([*bsrefmt*](https://github.com/glennsl/bs-refmt))
 * **ReScript** ([*rescript format*](https://www.npmjs.com/package/rescript))
 * **Ruby** ([*rubocop*](https://github.com/rubocop/rubocop), [*rufo*](https://github.com/ruby-formatter/rufo), [*standardrb*](https://github.com/testdouble/standard))
@@ -72,11 +75,12 @@ Supported languages
 * **Scala** ([*scalafmt*](https://github.com/scalameta/scalafmt))
 * **Shell script** ([*beautysh*](https://github.com/lovesegfault/beautysh), [*shfmt*](https://github.com/mvdan/sh))
 * **Snakemake** ([*snakefmt*](https://github.com/snakemake/snakefmt))
-* **Solidity** ([*prettier-plugin-solidity*](https://github.com/prettier-solidity/prettier-plugin-solidity))
+* **Solidity** ([*prettier plugin*](https://github.com/prettier-solidity/prettier-plugin-solidity))
 * **SQL** ([*pgformatter*](https://github.com/darold/pgFormatter), [*sqlformat*](https://pypi.org/project/sqlparse/))
+* **Svelte** ([*prettier plugin*](https://github.com/sveltejs/prettier-plugin-svelte))
 * **Swift** ([*swiftformat*](https://github.com/nicklockwood/SwiftFormat))
 * **Terraform** ([*terraform fmt*](https://www.terraform.io/docs/commands/fmt.html))
-* **TOML** ([*prettier-plugin-toml*](https://github.com/bd82/toml-tools/tree/master/packages/prettier-plugin-toml))
+* **TOML** ([*prettier plugin*](https://github.com/bd82/toml-tools/tree/master/packages/prettier-plugin-toml))
 * **TypeScript/TSX** ([*prettier*](https://prettier.io/))
 * **V** ([*v fmt*](https://github.com/vlang/v))
 * **Verilog** ([*iStyle*](https://github.com/thomasrussellmurphy/istyle-verilog-formatter))
